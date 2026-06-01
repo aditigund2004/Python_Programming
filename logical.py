@@ -112,3 +112,101 @@ if num1 == num2:
 else:
     print("no")
 
+
+
+
+
+# def factorialcount(n):
+#     fact = 1
+#     for i in range(1, n+1):
+#         fact *=i
+#     print(f"Factorial :{fact}")
+# factorialcount(5)
+        
+        
+
+
+# a = 0
+# b = 1
+# c = 10
+# print(a)
+# print(b)
+# for i in range(3, c+1):
+#     d = a+b
+#     print(d)
+#     a=b
+#     b=d
+
+
+# name = "Aditi"
+# if name==name[::-1]:
+#     print(f"name is palindrome : {name}")
+# else:
+#     print(f"name is not palindrome : {name}")
+
+
+
+
+def palinfrome_num(num):
+    if num < 0:
+        return "It is not palindrome number"
+          
+    original = num
+    reve = 0
+    
+    while num > 0:
+        digit = num % 10
+        reve = (reve * 10) + digit
+        num = num // 10
+        
+    if original == reve:
+        return "Palindrome"
+    else:
+        return "not palindrome"
+
+print(palinfrome_num(121))
+  
+
+
+
+
+year = 2024
+if (year % 4 ==0 and year % 100 != 0) or (year % 400 == 0):
+    print("leap year")
+else:
+    print("not leap year")
+    
+    
+    
+def check_leap_year(year):
+    if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+        return f"{year} is a leap year"
+    else:
+        return f"{year} is not a leap year"
+print(check_leap_year(2024))  
+print(check_leap_year(1900))  
+print(check_leap_year(2000))  
+
+
+
+# def facto(n):
+#     if(n==1 or n==0):
+#         return 1
+#     return facto(n-1) *n
+# print(facto(5))
+
+
+
+
+num =10
+if num > 1:
+    for i in range(2, num):
+        if(num % 1) ==0:
+            print("not prime")
+            break
+        else:
+            print("prime")
+    else:
+        
+        print("not prime")
+
