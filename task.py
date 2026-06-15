@@ -147,3 +147,62 @@ if len(compressed) < len(string):
     print("Compressed String :", compressed)
 else:
     print("Original String :", string)
+
+
+
+
+
+
+# additi of number 
+# num1 = eval(input("Enter first number :"))
+# num2 = eval(input("Enter second number : "))
+
+# sum = num1 + num2
+# # print("Addition of tow number by the user input : " ,sum)
+# print(f" addition of {num1} and {num2} is :{sum}")
+
+
+
+# area of rectangle
+# area = height * width
+
+# height = 200
+# width = 300
+# area = height * width
+# print("area of rectangle is :", area)
+
+
+# percentag
+
+# obtained marks / total marks * 10
+#  500
+
+# marks1 = eval(input("Enter marks1 : "))
+# marks2 = eval(input("Enter marks2 : "))
+# marks3 = eval(input("Enter marks3 : "))
+# marks4 = eval(input("Enter marks4 : "))
+# marks5 = eval(input("Enter marks5 : "))
+
+# add = marks1 + marks2 + marks3 + marks4 + marks5
+
+# obtained = add / 500  * 100
+# print(add)
+
+# print("percentage", obtained)
+
+# simple interest 
+#  si = principle amount * rate of interrest * time /100 
+
+# amount = 100000
+# rateof_in = 5
+# time = 2
+# simple_interest = amount * rateof_in * time / 100
+# print("simple interest : ", simple_interest)
+
+# compount interest 
+# compount_interest = principle_amount * (1 + rate_of_intreset / 100) ** time
+# CI = amount - principle_amount
+
+
+
+
